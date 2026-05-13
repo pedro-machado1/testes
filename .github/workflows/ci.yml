@@ -55,4 +55,4 @@ jobs:
         run: node database/migrate.js
 
       - name: Rodar testes
-        run: npm tests/auth.test.js
+        run: npm test
