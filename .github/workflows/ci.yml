@@ -52,7 +52,7 @@ jobs:
         run: npm install
 
       - name: Rodar migrations
-        run: node src/migrate.js
+        run: node database/migrate.js
 
       - name: Rodar testes
-        run: npm test
+        run: npm tests/auth.test.js
